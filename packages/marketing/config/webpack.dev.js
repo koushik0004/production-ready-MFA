@@ -1,4 +1,3 @@
-const HtmlWebpackPlugin = require("html-webpack-plugin");
 const { ModuleFederationPlugin } = require("webpack").container;
 const { merge } = require("webpack-merge");
 
@@ -21,9 +20,6 @@ const webpackDev = {
         "./MarketingApp": "./src/bootstrap",
       },
       shared: packageJSON.dependencies,
-    }),
-    new HtmlWebpackPlugin({
-      template: "./public/index.html",
     }),
   ],
 };
