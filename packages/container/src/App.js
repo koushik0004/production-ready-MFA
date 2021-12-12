@@ -4,7 +4,7 @@ import { MarketingApp } from "./components";
 const App = () => {
   return (
     <section>
-      <h1>Hi Basis</h1>
+      <h1>Hi Basis - updated policies</h1>
       <hr />
       <MarketingApp />
     </section>
